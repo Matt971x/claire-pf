@@ -26,6 +26,11 @@ a,a:visited {
     margin: 30px 0;
 }
 
+.max-w{
+    max-width: 1440px;
+    margin: auto;
+}
+
 
 .grid-section {
     height: 60vh;
@@ -38,6 +43,10 @@ a,a:visited {
 .header-text {
     font-size: 2rem;
     text-align: center;
+}
+
+.header-text a {
+     border-bottom: 2px solid black;
 }
 .header-img {
     height: 100%;
@@ -93,4 +102,22 @@ a,a:visited {
     font-size: 2.5rem;
 }
 
+/* Skills section */
+.skills-wrapper {
+    background: url(./images/bg-2.png) center;
+}
+
+.skills-title h2 {
+    text-align: center;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.skills-list ul {
+    text-align: center;
+    list-style: none;
+}
+.skills-list li {
+   margin: 20px 0;
+}
 
